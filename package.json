@@ -1,0 +1,8 @@
+{
+  "name": "lateral-articles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:omokaro-faith/-articles-.git",
+  "author": "omokaro-faith <omokaro.faith@andela.com>",
+  "license": "MIT"
+}
