@@ -24,7 +24,7 @@ Application was developed using:
 -   Navigate to the root directory e.g \$ cd -articles-
 -   Run `yarn install`. This installs all the app's dependencies.
 -   Run `cp .env-example .env` in your terminal.
--   Change the value of `API_KEY` to your secret generated key gotten from lateral.
+-   Change the value of `API_KEY` in the created `.env` to your secret generated key gotten from lateral.
 -   Run `yarn start` to start the application
 -   View app in port 8080.
 
