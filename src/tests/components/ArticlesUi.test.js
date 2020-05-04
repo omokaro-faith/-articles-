@@ -30,12 +30,11 @@ describe('ArticlesUi', () => {
 		wrapper = shallow(<ArticlesUi />);
 	});
 
-	it('renders the components thcorrectly', () => {
+	it('renders the components correctly', () => {
 		const SearchMock = wrapper.find('SearchMock');
 		const CardMock = wrapper.find('CardMock');
 		const FiltersMock = wrapper.find('FiltersMock');
 		const HeaderMock = wrapper.find('SearchMock');
-		const MessageMock = wrapper.find('MessageMock');
 
 		expect(SearchMock.exists()).toEqual(true);
 		expect(CardMock.exists()).toEqual(true);

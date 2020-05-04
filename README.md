@@ -4,6 +4,14 @@ This is an Application that displays articles using the [lateral-news-recommmend
 
 ---
 
+### Prerequisites
+
+[Node](https://nodejs.org/en/)
+
+[Yarn](https://yarnpkg.com/en/docs/install)
+
+---
+
 #### Technology
 
 Application was developed using:
@@ -18,6 +26,8 @@ Application was developed using:
 
 ### Running in development environment
 
+-   Install [node](https://nodejs.org/en/)
+-   Install [yarn](https://yarnpkg.com/en/docs/install)
 -   Navigate to a directory within your terminal
 -   Clone the project from repository
 -   Using HTTP; \$ git clone [https://github.com/omokaro-faith/-articles-.git](https://github.com/omokaro-faith/-articles-.git)
@@ -30,6 +40,6 @@ Application was developed using:
 
 ---
 
-## Running the tests
+### Running the tests
 
 -   Run `yarn test` to run project test.

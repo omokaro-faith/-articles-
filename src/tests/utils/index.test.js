@@ -3,7 +3,11 @@ import utils from '../../utils/index';
 describe('formatTimeStamp', () => {
 	describe('when value is defined', () => {
 		it('returns formatted date object', () => {
-			expect(utils.formatTimeStamp('01/20/2000')).toEqual('Jan20,00');
+			Date = jest.fn(() => ({
+				toLocaleString: () => '12.May.19',
+			}));
+
+			expect(utils.formatTimeStamp('2019-05-12T06:00:25.000Z')).toEqual('12.May.19');
 		});
 	});
 

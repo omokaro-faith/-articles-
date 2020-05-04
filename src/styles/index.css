@@ -147,8 +147,7 @@ a {
 	text-transform: capitalize;
 	margin-top: 14px;
 	height: 5em;
-	margin-right: 90px;
-	font-weight: 600;
+	margin-right: 60px;
 	font-size: 18px;
 	line-height: 1.5;
 }
@@ -228,6 +227,7 @@ a {
 	height: 150px;
 	border-bottom-left-radius: 20px;
 	border-top-left-radius: 20px;
+	object-fit: cover;
 }
 
 .content_two {
