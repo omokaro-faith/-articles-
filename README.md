@@ -23,7 +23,7 @@ Application was developed using:
 -   Using HTTP; \$ git clone [https://github.com/omokaro-faith/-articles-.git](https://github.com/omokaro-faith/-articles-.git)
 -   Navigate to the root directory e.g \$ cd -articles-
 -   Run `yarn install`. This installs all the app's dependencies.
--   Run cp .env-example .env in your terminal.
+-   Run `cp .env-example .env` in your terminal.
 -   Change the value of `API_KEY` to your secret generated key gotten from lateral.
 -   Run `yarn start` to start the application
 -   View app in port 8080.
