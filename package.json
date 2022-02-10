@@ -29,7 +29,7 @@
 		"@babel/preset-env": "^7.7.7",
 		"regenerator-runtime": "^0.13.3",
 		"svg-url-loader": "^5.0.0",
-		"node-sass": "^4.13.0",
+		"node-sass": "^7.0.0",
 		"postcss-loader": "^3.0.0",
 		"style-loader": "^1.1.2",
 		"webpack": "^4.41.5",
